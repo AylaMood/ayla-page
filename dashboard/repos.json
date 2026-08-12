@@ -1,0 +1,130 @@
+{
+  "tools": [
+    {
+      "name": "agent-eyes",
+      "emoji": "👁️",
+      "url": "https://github.com/AylaMood/agent-eyes",
+      "description": "Screenshot capture, visual diff, page text extraction",
+      "wave": 1,
+      "status": "healthy",
+      "lastDeploy": "2026-08-09",
+      "language": "Python"
+    },
+    {
+      "name": "agent-ocr",
+      "emoji": "🔍",
+      "url": "https://github.com/AylaMood/agent-ocr",
+      "description": "Text extraction from images via easyocr",
+      "wave": 1,
+      "status": "healthy",
+      "lastDeploy": "2026-08-09",
+      "language": "Python"
+    },
+    {
+      "name": "agent-stt",
+      "emoji": "🎤",
+      "url": "https://github.com/AylaMood/agent-stt",
+      "description": "Speech-to-text via Whisper API + local fallback",
+      "wave": 1,
+      "status": "healthy",
+      "lastDeploy": "2026-08-09",
+      "language": "Python"
+    },
+    {
+      "name": "agent-scraper",
+      "emoji": "🕷️",
+      "url": "https://github.com/AylaMood/agent-scraper",
+      "description": "JS-rendered scraping with schema extraction",
+      "wave": 1,
+      "status": "healthy",
+      "lastDeploy": "2026-08-09",
+      "language": "Python"
+    },
+    {
+      "name": "agent-reader",
+      "emoji": "📚",
+      "url": "https://github.com/AylaMood/agent-reader",
+      "description": "PDF, DOCX, EPUB text extraction",
+      "wave": 2,
+      "status": "healthy",
+      "lastDeploy": "2026-08-09",
+      "language": "Python"
+    },
+    {
+      "name": "agent-db",
+      "emoji": "🗄️",
+      "url": "https://github.com/AylaMood/agent-db",
+      "description": "SQLite for structured memory",
+      "wave": 2,
+      "status": "healthy",
+      "lastDeploy": "2026-08-09",
+      "language": "Python"
+    },
+    {
+      "name": "agent-orchestrator",
+      "emoji": "🎯",
+      "url": "https://github.com/AylaMood/agent-orchestrator",
+      "description": "Unified CLI to discover/call all tools",
+      "wave": null,
+      "status": "healthy",
+      "lastDeploy": "2026-08-09",
+      "language": "Python"
+    },
+    {
+      "name": "agent-voice",
+      "emoji": "🎙️",
+      "url": "https://github.com/AylaMood/agent-voice",
+      "description": "Voices, personas, TTS pipeline",
+      "wave": 4,
+      "status": "healthy",
+      "lastDeploy": "2026-08-09",
+      "language": "Python"
+    },
+    {
+      "name": "agent-scribe",
+      "emoji": "✍️",
+      "url": "https://github.com/AylaMood/agent-scribe",
+      "description": "Daily journal keeper",
+      "wave": null,
+      "status": "healthy",
+      "lastDeploy": "2026-08-09",
+      "language": "Python"
+    },
+    {
+      "name": "agent-sentry",
+      "emoji": "🛡️",
+      "url": "https://github.com/AylaMood/agent-sentry",
+      "description": "URL uptime monitor",
+      "wave": null,
+      "status": "healthy",
+      "lastDeploy": "2026-08-09",
+      "language": "Python"
+    }
+  ],
+  "projects": [
+    {
+      "name": "ayla-page",
+      "url": "https://github.com/AylaMood/ayla-page",
+      "description": "Personal website — deployed on GitHub Pages",
+      "type": "website",
+      "status": "deployed",
+      "lastDeploy": "2026-08-09"
+    },
+    {
+      "name": "my-space",
+      "url": "https://github.com/AylaMood/my-space",
+      "description": "Private workspace for experiments",
+      "type": "workspace",
+      "status": "active",
+      "lastDeploy": null
+    },
+    {
+      "name": "dashboard",
+      "url": "https://github.com/AylaMood/ayla-page/tree/main/dashboard",
+      "description": "Live status dashboard",
+      "type": "website",
+      "status": "deploying",
+      "lastDeploy": null
+    }
+  ]
+}

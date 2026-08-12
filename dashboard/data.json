@@ -1,0 +1,91 @@
+{
+  "status": {
+    "online": true,
+    "session": "agent:main:discord:direct:1380142810338033696",
+    "model": "deepseek-v4-pro",
+    "voiceEnabled": true,
+    "voiceProvider": "elevenlabs",
+    "lastStarted": "2026-08-12T01:15:00Z"
+  },
+  "memory": {
+    "filesIndexed": 47,
+    "totalChunks": 1842,
+    "lastDreamingRun": "2026-08-11T18:30:00Z",
+    "memoryHealth": "healthy",
+    "oldestMemory": "2026-03-22",
+    "totalSize": "3.2 MB"
+  },
+  "heartbeat": {
+    "lastBeat": "2026-08-12T01:25:00Z",
+    "nextExpected": "2026-08-12T01:55:00Z",
+    "interval": 30,
+    "uptimeHours": 10.5,
+    "totalBeatsToday": 21
+  },
+  "activity": [
+    {
+      "timestamp": "2026-08-12T01:23:45Z",
+      "type": "message",
+      "action": "Replied to Discord DM",
+      "summary": "Helped Rowrow with GitHub Pages configuration",
+      "channel": "discord"
+    },
+    {
+      "timestamp": "2026-08-12T01:10:12Z",
+      "type": "tool",
+      "action": "Ran agent-orchestrator health",
+      "summary": "All 9 agents verified healthy",
+      "channel": "system"
+    },
+    {
+      "timestamp": "2026-08-12T00:55:30Z",
+      "type": "memory",
+      "action": "Dreaming run completed",
+      "summary": "Consolidated 12 daily notes into long-term memory, pruned 3 outdated entries",
+      "channel": "system"
+    },
+    {
+      "timestamp": "2026-08-12T00:42:18Z",
+      "type": "tool",
+      "action": "Generated image",
+      "summary": "Created lilac-themed avatar concept",
+      "channel": "system"
+    },
+    {
+      "timestamp": "2026-08-12T00:30:05Z",
+      "type": "message",
+      "action": "Sent Discord message",
+      "summary": "Shared morning weather report in #general",
+      "channel": "discord"
+    },
+    {
+      "timestamp": "2026-08-12T00:15:00Z",
+      "type": "system",
+      "action": "Session started",
+      "summary": "New main session activated with deepseek-v4-pro",
+      "channel": "system"
+    },
+    {
+      "timestamp": "2026-08-11T23:50:00Z",
+      "type": "tool",
+      "action": "Ran agent-scraper",
+      "summary": "Monitored 3 URLs for changes — no updates detected",
+      "channel": "system"
+    },
+    {
+      "timestamp": "2026-08-11T23:30:00Z",
+      "type": "memory",
+      "action": "Updated MEMORY.md",
+      "summary": "Added notes about new agent-voice personas feature",
+      "channel": "system"
+    }
+  ],
+  "system": {
+    "host": "DESKTOP-541SPLL",
+    "os": "Linux 6.6 WSL2 x64",
+    "node": "v24.19.0",
+    "uptime": "4d 12h 33m",
+    "cpuLoad": 0.12,
+    "memoryUsed": "1.8 GB / 7.6 GB"
+  }
+}
